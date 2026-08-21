@@ -6,7 +6,7 @@
 	(paper "A4")
 	(lib_symbols)
 	(sheet
-		(at 38.1 38.1)
+		(at 25.4 25.4)
 		(size 38.1 25.4)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -22,7 +22,7 @@
 		)
 		(uuid "4e1b7e7e-6f23-4da7-a75d-a8b4dffe23b5")
 		(property "Sheetname" "stm32f103_mcu"
-			(at 38.1 37.3884 0)
+			(at 25.4 24.6884 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -33,7 +33,7 @@
 			)
 		)
 		(property "Sheetfile" "stm32f103_mcu.kicad_sch"
-			(at 38.1 64.0846 0)
+			(at 25.4 51.3846 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -47,6 +47,52 @@
 			(project "stm32f103_t"
 				(path "/85c6611a-7c24-4cf6-98b3-fc639d9f6ec5"
 					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 76.2 25.4)
+		(size 38.1 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "e25b0e53-e182-4ca1-9f24-21e783ae33ef")
+		(property "Sheetname" "stm32f103_pwr"
+			(at 76.2 24.6884 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "stm32f103_pwr.kicad_sch"
+			(at 76.2 51.3846 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "stm32f103_t"
+				(path "/85c6611a-7c24-4cf6-98b3-fc639d9f6ec5"
+					(page "3")
 				)
 			)
 		)
