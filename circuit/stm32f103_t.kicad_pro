@@ -648,7 +648,7 @@
         "uuid": "85c6611a-7c24-4cf6-98b3-fc639d9f6ec5"
       }
     ],
-    "used_designators": "U1-2,C1-11,#PWR1-15,SW1,Y1,J1,R1-2",
+    "used_designators": "U1-2,C1-15,D1-4,#PWR1-32,SW1-6,Y1,J1,R1-18,RV1-4",
     "variants": []
   },
   "sheets": [
@@ -663,6 +663,18 @@
     [
       "e25b0e53-e182-4ca1-9f24-21e783ae33ef",
       "stm32f103_pwr"
+    ],
+    [
+      "8f949a12-8888-46cd-a43c-652036d3b159",
+      "stm32f103_led"
+    ],
+    [
+      "72ead482-8f30-41c5-ae60-001db1b7efa5",
+      "stm32f103_button"
+    ],
+    [
+      "8d2be89a-d9ae-4e4d-9900-9269dcf01584",
+      "stm32f103_pot"
     ]
   ],
   "text_variables": {},
