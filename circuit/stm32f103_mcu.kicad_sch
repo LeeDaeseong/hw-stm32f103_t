@@ -4166,6 +4166,12 @@
 		(uuid "a8570d8e-02b4-43f1-bb01-c74949fcd0ff")
 	)
 	(junction
+		(at 60.96 111.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "07f65d6c-f8a1-4c60-8548-40602cc2045e")
+	)
+	(junction
 		(at 322.58 129.54)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4184,7 +4190,13 @@
 		(uuid "20f2d90d-c663-4706-8b84-790618451e44")
 	)
 	(junction
-		(at 73.66 124.46)
+		(at 63.5 114.3)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "23c707d3-549c-4bf1-808a-3307bc6d9bc9")
+	)
+	(junction
+		(at 60.96 101.6)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3a439274-87d3-484a-b9ed-20c5a345c42f")
@@ -4232,12 +4244,6 @@
 		(uuid "66dc8ee6-cd70-4121-8652-19d94b9c206a")
 	)
 	(junction
-		(at 73.66 111.76)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6a5d870c-caed-4f19-9986-c1002bc461b6")
-	)
-	(junction
 		(at 320.04 58.42)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4254,12 +4260,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8da93b76-3a92-4f20-8429-05f0a6a62164")
-	)
-	(junction
-		(at 76.2 114.3)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "927c87a0-4030-4764-aff1-944f04e0f023")
 	)
 	(junction
 		(at 322.58 172.72)
@@ -4302,6 +4302,70 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f6af4e4d-3323-4e17-950a-23116c666439")
+	)
+	(no_connect
+		(at 93.98 109.22)
+		(uuid "0696aedc-f944-48b3-a082-b73ffa692fee")
+	)
+	(no_connect
+		(at 93.98 81.28)
+		(uuid "0e59b9a1-7335-4551-ab69-6122cd5f4c0b")
+	)
+	(no_connect
+		(at 93.98 83.82)
+		(uuid "112dd466-fd0f-4826-abec-dab1cf59fff5")
+	)
+	(no_connect
+		(at 93.98 119.38)
+		(uuid "25195ba3-a03c-45c0-854d-1eaea1c64b9b")
+	)
+	(no_connect
+		(at 93.98 127)
+		(uuid "27277109-792b-4ae7-b1e6-d33a32567f5c")
+	)
+	(no_connect
+		(at 93.98 104.14)
+		(uuid "2efbbf22-bce3-4188-8349-cbd6334fb836")
+	)
+	(no_connect
+		(at 144.78 132.08)
+		(uuid "3d738bb4-f73d-4b87-96c5-0379bf0d26e1")
+	)
+	(no_connect
+		(at 93.98 101.6)
+		(uuid "4dc3753a-4650-4243-8378-8779b1d3ac29")
+	)
+	(no_connect
+		(at 93.98 78.74)
+		(uuid "701ad2c2-67a4-4c36-9633-83dc2af152be")
+	)
+	(no_connect
+		(at 144.78 134.62)
+		(uuid "a20ce7a7-99a2-496d-b0f2-fd67debe474a")
+	)
+	(no_connect
+		(at 93.98 116.84)
+		(uuid "bd6ab9e3-d194-40e1-b9c6-1e1ecee817a9")
+	)
+	(no_connect
+		(at 93.98 132.08)
+		(uuid "c21ccd30-f861-4546-9765-3597c0ca3c27")
+	)
+	(no_connect
+		(at 93.98 129.54)
+		(uuid "c85545e5-810f-40cf-b0b8-8ddccf6148da")
+	)
+	(no_connect
+		(at 93.98 106.68)
+		(uuid "d7146093-49be-4d10-b27d-9f54ac30f880")
+	)
+	(no_connect
+		(at 144.78 124.46)
+		(uuid "f4220337-9994-4915-aafa-9951b2436b88")
+	)
+	(no_connect
+		(at 93.98 134.62)
+		(uuid "fc792ee8-7c46-4c49-8b82-4ce4ed0b89fc")
 	)
 	(wire
 		(pts
@@ -4375,16 +4439,6 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 111.76) (xy 81.28 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1ac8e633-58da-4810-8fa8-29d024f70e64")
-	)
-	(wire
-		(pts
 			(xy 320.04 55.88) (xy 320.04 58.42)
 		)
 		(stroke
@@ -4435,6 +4489,16 @@
 	)
 	(wire
 		(pts
+			(xy 78.74 124.46) (xy 93.98 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "258b6f7d-0ef5-4e14-b7d8-41f1843a49f7")
+	)
+	(wire
+		(pts
 			(xy 340.36 121.92) (xy 340.36 129.54)
 		)
 		(stroke
@@ -4475,7 +4539,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 124.46) (xy 76.2 121.92)
+			(xy 63.5 101.6) (xy 63.5 104.14)
 		)
 		(stroke
 			(width 0)
@@ -4585,6 +4649,16 @@
 	)
 	(wire
 		(pts
+			(xy 63.5 114.3) (xy 81.28 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "47b1233d-78a5-4f76-b0d3-84f39a3e8aa6")
+	)
+	(wire
+		(pts
 			(xy 340.36 109.22) (xy 358.14 109.22)
 		)
 		(stroke
@@ -4602,16 +4676,6 @@
 			(type default)
 		)
 		(uuid "49035c9e-e76f-4ee8-987f-293a66641a4c")
-	)
-	(wire
-		(pts
-			(xy 68.58 114.3) (xy 76.2 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "49548009-4c43-4d18-91fd-ecff05658595")
 	)
 	(wire
 		(pts
@@ -4725,7 +4789,7 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 124.46) (xy 76.2 124.46)
+			(xy 60.96 101.6) (xy 63.5 101.6)
 		)
 		(stroke
 			(width 0)
@@ -4745,7 +4809,7 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 124.46) (xy 73.66 127)
+			(xy 60.96 101.6) (xy 60.96 99.06)
 		)
 		(stroke
 			(width 0)
@@ -4772,6 +4836,16 @@
 			(type default)
 		)
 		(uuid "6502bf67-1f37-4219-ae95-6e8d4b0b3eea")
+	)
+	(wire
+		(pts
+			(xy 78.74 121.92) (xy 93.98 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6fa374eb-068a-4852-b110-69ae21a2cdd8")
 	)
 	(wire
 		(pts
@@ -4845,6 +4919,16 @@
 	)
 	(wire
 		(pts
+			(xy 63.5 109.22) (xy 63.5 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "83377ef4-8769-4bce-8cc9-e489581967a7")
+	)
+	(wire
+		(pts
 			(xy 322.58 129.54) (xy 340.36 129.54)
 		)
 		(stroke
@@ -4902,16 +4986,6 @@
 			(type default)
 		)
 		(uuid "8e2281c4-dcc4-4ce9-bb8c-b5c163f44021")
-	)
-	(wire
-		(pts
-			(xy 73.66 111.76) (xy 73.66 116.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9180090a-b280-4709-89f5-a7e0fefa7935")
 	)
 	(wire
 		(pts
@@ -4975,7 +5049,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 111.76) (xy 73.66 111.76)
+			(xy 55.88 111.76) (xy 60.96 111.76)
 		)
 		(stroke
 			(width 0)
@@ -5005,7 +5079,17 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 121.92) (xy 73.66 124.46)
+			(xy 60.96 111.76) (xy 81.28 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f191b6a-1421-4f5c-9a46-bceeafba5146")
+	)
+	(wire
+		(pts
+			(xy 60.96 104.14) (xy 60.96 101.6)
 		)
 		(stroke
 			(width 0)
@@ -5075,6 +5159,16 @@
 	)
 	(wire
 		(pts
+			(xy 60.96 109.22) (xy 60.96 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b4295214-3e28-4e0d-9b77-bc6404a5eb49")
+	)
+	(wire
+		(pts
 			(xy 320.04 83.82) (xy 320.04 88.9)
 		)
 		(stroke
@@ -5122,16 +5216,6 @@
 			(type default)
 		)
 		(uuid "c865429c-b0ba-4164-872a-74696d902898")
-	)
-	(wire
-		(pts
-			(xy 76.2 114.3) (xy 76.2 116.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c883f435-fce3-4aad-8b8d-38f1555f1ff1")
 	)
 	(wire
 		(pts
@@ -5205,7 +5289,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 114.3) (xy 81.28 114.3)
+			(xy 55.88 114.3) (xy 63.5 114.3)
 		)
 		(stroke
 			(width 0)
@@ -5343,16 +5427,6 @@
 		)
 		(uuid "5800f440-574c-4cfc-9486-71c8faf82892")
 	)
-	(label "IO_OUT3"
-		(at 78.74 96.52 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "5d79ed68-93b7-4efe-b527-d3138cd88b97")
-	)
 	(label "OSC_OUT"
 		(at 224.79 83.82 0)
 		(effects
@@ -5362,16 +5436,6 @@
 			(justify left bottom)
 		)
 		(uuid "638a1cdf-b243-42d7-a0e1-e71080da0466")
-	)
-	(label "IO_OUT2"
-		(at 78.74 76.2 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "80fe5ddd-14bd-4b20-acf7-1e5975ea69b6")
 	)
 	(label "SWDIO"
 		(at 78.74 86.36 0)
@@ -5403,16 +5467,6 @@
 		)
 		(uuid "c26be529-c93a-4031-939b-92f7e17bf581")
 	)
-	(label "IO_OUT1"
-		(at 78.74 73.66 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "d6070739-74b2-4983-af9a-cdc99472cd33")
-	)
 	(label "OSC_OUT"
 		(at 165.1 109.22 180)
 		(effects
@@ -5432,16 +5486,6 @@
 			(justify left bottom)
 		)
 		(uuid "e70867fa-848f-44a8-971a-5ce96df261fa")
-	)
-	(label "IO_OUT4"
-		(at 78.74 99.06 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "e92233b2-2146-47a7-b095-c00768dc5ac5")
 	)
 	(label "~{RST}"
 		(at 154.94 129.54 180)
@@ -5510,7 +5554,7 @@
 	)
 	(hierarchical_label "MCU_UART1_TX"
 		(shape output)
-		(at 68.58 111.76 180)
+		(at 55.88 111.76 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5530,6 +5574,17 @@
 		)
 		(uuid "81ee8779-0a5d-4dc9-b0b5-56385ac5e24e")
 	)
+	(hierarchical_label "MCU_UART3_RX"
+		(shape input)
+		(at 78.74 124.46 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8901e78a-ca6f-42b8-beec-17a5a53ccfe5")
+	)
 	(hierarchical_label "IO_IN_SW1"
 		(shape input)
 		(at 78.74 63.5 180)
@@ -5543,7 +5598,7 @@
 	)
 	(hierarchical_label "MCU_OUT3"
 		(shape output)
-		(at 78.7616 96.52 180)
+		(at 78.74 96.52 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5585,9 +5640,20 @@
 		)
 		(uuid "d26f93ac-ea52-4c0c-b2ff-b316ee3054db")
 	)
+	(hierarchical_label "MCU_UART3_TX"
+		(shape output)
+		(at 78.74 121.92 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d9547f14-0658-4ec6-87e7-07dcca04ea29")
+	)
 	(hierarchical_label "MCU_UART1_RX"
 		(shape input)
-		(at 68.58 114.3 180)
+		(at 55.88 114.3 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5629,7 +5695,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0506831c-2573-4617-a8cb-9a5ea998195e")
-		(property "Reference" "#PWR011"
+		(property "Reference" "#PWR015"
 			(at 231.14 233.68 0)
 			(hide yes)
 			(show_name no)
@@ -5689,7 +5755,7 @@
 		(instances
 			(project "stm32f103_t"
 				(path "/85c6611a-7c24-4cf6-98b3-fc639d9f6ec5/4e1b7e7e-6f23-4da7-a75d-a8b4dffe23b5"
-					(reference "#PWR011")
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -5706,7 +5772,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0bd00596-f7a4-4c2a-8529-0f8c46556bca")
-		(property "Reference" "#PWR07"
+		(property "Reference" "#PWR019"
 			(at 314.96 227.33 0)
 			(hide yes)
 			(show_name no)
@@ -5766,7 +5832,7 @@
 		(instances
 			(project "stm32f103_t"
 				(path "/85c6611a-7c24-4cf6-98b3-fc639d9f6ec5/4e1b7e7e-6f23-4da7-a75d-a8b4dffe23b5"
-					(reference "#PWR07")
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -5783,7 +5849,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0d747d2a-6857-40e6-b59c-db3684d3dd24")
-		(property "Reference" "U1"
+		(property "Reference" "U2"
 			(at 103.886 48.514 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6005,7 +6071,7 @@
 		(instances
 			(project "stm32f103_t"
 				(path "/85c6611a-7c24-4cf6-98b3-fc639d9f6ec5/4e1b7e7e-6f23-4da7-a75d-a8b4dffe23b5"
-					(reference "U1")
+					(reference "U2")
 					(unit 1)
 				)
 			)
@@ -6022,7 +6088,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "12ba29bc-9aaf-4477-af17-afcfc4bd4bb6")
-		(property "Reference" "#PWR01"
+		(property "Reference" "#PWR018"
 			(at 304.8 151.13 0)
 			(hide yes)
 			(show_name no)
@@ -6082,7 +6148,7 @@
 		(instances
 			(project "stm32f103_t"
 				(path "/85c6611a-7c24-4cf6-98b3-fc639d9f6ec5/4e1b7e7e-6f23-4da7-a75d-a8b4dffe23b5"
-					(reference "#PWR01")
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -6099,7 +6165,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "436fef8b-e252-4173-a0fe-6d05c10133d7")
-		(property "Reference" "#PWR05"
+		(property "Reference" "#PWR023"
 			(at 358.14 140.97 0)
 			(hide yes)
 			(show_name no)
@@ -6159,7 +6225,7 @@
 		(instances
 			(project "stm32f103_t"
 				(path "/85c6611a-7c24-4cf6-98b3-fc639d9f6ec5/4e1b7e7e-6f23-4da7-a75d-a8b4dffe23b5"
-					(reference "#PWR05")
+					(reference "#PWR023")
 					(unit 1)
 				)
 			)
@@ -6176,7 +6242,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "44a7d05c-9a6e-439b-b753-41f3abd66b50")
-		(property "Reference" "R19"
+		(property "Reference" "R9"
 			(at 80.518 110.744 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6260,7 +6326,7 @@
 		(instances
 			(project "stm32f103_t"
 				(path "/85c6611a-7c24-4cf6-98b3-fc639d9f6ec5/4e1b7e7e-6f23-4da7-a75d-a8b4dffe23b5"
-					(reference "R19")
+					(reference "R9")
 					(unit 1)
 				)
 			)
@@ -6277,7 +6343,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4683baef-6600-4efb-b594-b368a4f091ce")
-		(property "Reference" "R2"
+		(property "Reference" "R12"
 			(at 152.4 117.856 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6361,7 +6427,7 @@
 		(instances
 			(project "stm32f103_t"
 				(path "/85c6611a-7c24-4cf6-98b3-fc639d9f6ec5/4e1b7e7e-6f23-4da7-a75d-a8b4dffe23b5"
-					(reference "R2")
+					(reference "R12")
 					(unit 1)
 				)
 			)
@@ -6380,7 +6446,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4794b7df-bb27-4372-abbb-d0667fc8b9c4")
-		(property "Reference" "C6"
+		(property "Reference" "C8"
 			(at 325.12 161.2899 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6466,7 +6532,7 @@
 		(instances
 			(project "stm32f103_t"
 				(path "/85c6611a-7c24-4cf6-98b3-fc639d9f6ec5/4e1b7e7e-6f23-4da7-a75d-a8b4dffe23b5"
-					(reference "C6")
+					(reference "C8")
 					(unit 1)
 				)
 			)
@@ -6485,7 +6551,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "572c44a9-b689-4d00-8756-8b807310de8f")
-		(property "Reference" "C7"
+		(property "Reference" "C6"
 			(at 317.5 209.5499 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6571,7 +6637,7 @@
 		(instances
 			(project "stm32f103_t"
 				(path "/85c6611a-7c24-4cf6-98b3-fc639d9f6ec5/4e1b7e7e-6f23-4da7-a75d-a8b4dffe23b5"
-					(reference "C7")
+					(reference "C6")
 					(unit 1)
 				)
 			)
@@ -6588,7 +6654,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5da5241d-8701-4107-b530-0069641993a8")
-		(property "Reference" "R1"
+		(property "Reference" "R11"
 			(at 152.4 107.696 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6672,7 +6738,7 @@
 		(instances
 			(project "stm32f103_t"
 				(path "/85c6611a-7c24-4cf6-98b3-fc639d9f6ec5/4e1b7e7e-6f23-4da7-a75d-a8b4dffe23b5"
-					(reference "R1")
+					(reference "R11")
 					(unit 1)
 				)
 			)
@@ -6689,7 +6755,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5f0b237d-068b-484e-8057-357720b28181")
-		(property "Reference" "#PWR08"
+		(property "Reference" "#PWR016"
 			(at 261.62 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -6749,7 +6815,7 @@
 		(instances
 			(project "stm32f103_t"
 				(path "/85c6611a-7c24-4cf6-98b3-fc639d9f6ec5/4e1b7e7e-6f23-4da7-a75d-a8b4dffe23b5"
-					(reference "#PWR08")
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -6768,7 +6834,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5fd88869-c5fe-4eb5-8b62-600562409b7e")
-		(property "Reference" "C4"
+		(property "Reference" "C10"
 			(at 360.68 118.1099 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6854,7 +6920,7 @@
 		(instances
 			(project "stm32f103_t"
 				(path "/85c6611a-7c24-4cf6-98b3-fc639d9f6ec5/4e1b7e7e-6f23-4da7-a75d-a8b4dffe23b5"
-					(reference "C4")
+					(reference "C10")
 					(unit 1)
 				)
 			)
@@ -6871,7 +6937,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "685aa7b0-c7ca-4da9-b9ca-0f43f672b968")
-		(property "Reference" "#PWR010"
+		(property "Reference" "#PWR014"
 			(at 231.14 215.9 0)
 			(hide yes)
 			(show_name no)
@@ -6931,7 +6997,7 @@
 		(instances
 			(project "stm32f103_t"
 				(path "/85c6611a-7c24-4cf6-98b3-fc639d9f6ec5/4e1b7e7e-6f23-4da7-a75d-a8b4dffe23b5"
-					(reference "#PWR010")
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -6950,7 +7016,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "77a80432-0868-4967-8488-c2f87d5e6781")
-		(property "Reference" "C2"
+		(property "Reference" "C7"
 			(at 325.12 118.1099 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7036,7 +7102,7 @@
 		(instances
 			(project "stm32f103_t"
 				(path "/85c6611a-7c24-4cf6-98b3-fc639d9f6ec5/4e1b7e7e-6f23-4da7-a75d-a8b4dffe23b5"
-					(reference "C2")
+					(reference "C7")
 					(unit 1)
 				)
 			)
@@ -7044,7 +7110,8 @@
 	)
 	(symbol
 		(lib_id "0103_resistor:R")
-		(at 76.2 119.38 90)
+		(at 63.5 106.68 90)
+		(mirror x)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7053,8 +7120,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "78d65dcf-afd4-47d8-8273-bad3cd291472")
-		(property "Reference" "R27"
-			(at 78.74 118.364 90)
+		(property "Reference" "R8"
+			(at 66.04 107.696 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7064,7 +7131,7 @@
 			)
 		)
 		(property "Value" "10kΩ(2012)"
-			(at 82.804 120.65 90)
+			(at 70.104 105.41 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7074,7 +7141,7 @@
 			)
 		)
 		(property "Footprint" "0103_resistor:r_0805_2012_smd"
-			(at 81.28 119.38 0)
+			(at 68.58 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7085,7 +7152,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 76.2 119.38 0)
+			(at 63.5 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7096,7 +7163,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 83.82 119.38 0)
+			(at 71.12 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7107,7 +7174,7 @@
 			)
 		)
 		(property "제조사" ""
-			(at 81.28 119.38 0)
+			(at 68.58 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7118,7 +7185,7 @@
 			)
 		)
 		(property "개정" "R.260805.01"
-			(at 86.36 119.38 0)
+			(at 73.66 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7137,7 +7204,7 @@
 		(instances
 			(project "stm32f103_t"
 				(path "/85c6611a-7c24-4cf6-98b3-fc639d9f6ec5/4e1b7e7e-6f23-4da7-a75d-a8b4dffe23b5"
-					(reference "R27")
+					(reference "R8")
 					(unit 1)
 				)
 			)
@@ -7156,7 +7223,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7d059efe-b924-4dd5-bf39-d6f8eb3a9b05")
-		(property "Reference" "C1"
+		(property "Reference" "C4"
 			(at 307.34 118.1099 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7242,7 +7309,7 @@
 		(instances
 			(project "stm32f103_t"
 				(path "/85c6611a-7c24-4cf6-98b3-fc639d9f6ec5/4e1b7e7e-6f23-4da7-a75d-a8b4dffe23b5"
-					(reference "C1")
+					(reference "C4")
 					(unit 1)
 				)
 			)
@@ -7261,7 +7328,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7ecb6296-11b5-4de2-a3a8-51d9e6efb432")
-		(property "Reference" "C8"
+		(property "Reference" "C2"
 			(at 251.46 77.47 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7345,7 +7412,7 @@
 		(instances
 			(project "stm32f103_t"
 				(path "/85c6611a-7c24-4cf6-98b3-fc639d9f6ec5/4e1b7e7e-6f23-4da7-a75d-a8b4dffe23b5"
-					(reference "C8")
+					(reference "C2")
 					(unit 1)
 				)
 			)
@@ -7362,7 +7429,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "82ff13ec-ce29-4615-88b9-45cae4e1a717")
-		(property "Reference" "#PWR03"
+		(property "Reference" "#PWR017"
 			(at 304.8 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -7422,7 +7489,7 @@
 		(instances
 			(project "stm32f103_t"
 				(path "/85c6611a-7c24-4cf6-98b3-fc639d9f6ec5/4e1b7e7e-6f23-4da7-a75d-a8b4dffe23b5"
-					(reference "#PWR03")
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -7439,7 +7506,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "86e58d39-26d9-44cf-8cc2-9c8ff73dc732")
-		(property "Reference" "U1"
+		(property "Reference" "U2"
 			(at 335.788 48.768 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7663,7 +7730,7 @@
 		(instances
 			(project "stm32f103_t"
 				(path "/85c6611a-7c24-4cf6-98b3-fc639d9f6ec5/4e1b7e7e-6f23-4da7-a75d-a8b4dffe23b5"
-					(reference "U1")
+					(reference "U2")
 					(unit 2)
 				)
 			)
@@ -7671,8 +7738,7 @@
 	)
 	(symbol
 		(lib_id "0103_resistor:R")
-		(at 73.66 119.38 270)
-		(mirror x)
+		(at 60.96 106.68 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7681,8 +7747,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8fdde5a8-933f-45be-aa15-bf93259bf8cb")
-		(property "Reference" "R26"
-			(at 71.12 118.364 90)
+		(property "Reference" "R7"
+			(at 58.42 107.696 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7692,7 +7758,7 @@
 			)
 		)
 		(property "Value" "10kΩ(2012)"
-			(at 67.31 120.65 90)
+			(at 54.61 105.41 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7702,7 +7768,7 @@
 			)
 		)
 		(property "Footprint" "0103_resistor:r_0805_2012_smd"
-			(at 68.58 119.38 0)
+			(at 55.88 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7713,7 +7779,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 73.66 119.38 0)
+			(at 60.96 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7724,7 +7790,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 66.04 119.38 0)
+			(at 53.34 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7735,7 +7801,7 @@
 			)
 		)
 		(property "제조사" ""
-			(at 68.58 119.38 0)
+			(at 55.88 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7746,7 +7812,7 @@
 			)
 		)
 		(property "개정" "R.260805.01"
-			(at 63.5 119.38 0)
+			(at 50.8 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7765,7 +7831,7 @@
 		(instances
 			(project "stm32f103_t"
 				(path "/85c6611a-7c24-4cf6-98b3-fc639d9f6ec5/4e1b7e7e-6f23-4da7-a75d-a8b4dffe23b5"
-					(reference "R26")
+					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -7782,7 +7848,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "90cb9d08-299c-4d57-b905-1e41ad4f5631")
-		(property "Reference" "#PWR06"
+		(property "Reference" "#PWR021"
 			(at 320.04 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -7842,7 +7908,7 @@
 		(instances
 			(project "stm32f103_t"
 				(path "/85c6611a-7c24-4cf6-98b3-fc639d9f6ec5/4e1b7e7e-6f23-4da7-a75d-a8b4dffe23b5"
-					(reference "#PWR06")
+					(reference "#PWR021")
 					(unit 1)
 				)
 			)
@@ -7860,7 +7926,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a3da1c4c-a28b-4a1f-ad68-d40670c00709")
-		(property "Reference" "J1"
+		(property "Reference" "J3"
 			(at 245.11 218.4399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7955,7 +8021,7 @@
 		(instances
 			(project "stm32f103_t"
 				(path "/85c6611a-7c24-4cf6-98b3-fc639d9f6ec5/4e1b7e7e-6f23-4da7-a75d-a8b4dffe23b5"
-					(reference "J1")
+					(reference "J3")
 					(unit 1)
 				)
 			)
@@ -7973,7 +8039,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b8f54d4c-6f15-44da-a3d0-ff80ea7f684a")
-		(property "Reference" "C9"
+		(property "Reference" "C3"
 			(at 251.46 96.774 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8057,7 +8123,7 @@
 		(instances
 			(project "stm32f103_t"
 				(path "/85c6611a-7c24-4cf6-98b3-fc639d9f6ec5/4e1b7e7e-6f23-4da7-a75d-a8b4dffe23b5"
-					(reference "C9")
+					(reference "C3")
 					(unit 1)
 				)
 			)
@@ -8065,7 +8131,8 @@
 	)
 	(symbol
 		(lib_id "0000_kicad:+3.3V")
-		(at 73.66 127 180)
+		(at 60.96 99.06 0)
+		(mirror y)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8074,8 +8141,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "bbca8915-29c9-4c05-be7e-a7c87bd7a8a7")
-		(property "Reference" "#PWR033"
-			(at 73.66 123.19 0)
+		(property "Reference" "#PWR012"
+			(at 60.96 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8086,7 +8153,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 73.66 130.556 0)
+			(at 60.96 95.504 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8096,7 +8163,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 73.66 127 0)
+			(at 60.96 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8107,7 +8174,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 73.66 127 0)
+			(at 60.96 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8118,7 +8185,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 73.66 127 0)
+			(at 60.96 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8134,7 +8201,7 @@
 		(instances
 			(project "stm32f103_t"
 				(path "/85c6611a-7c24-4cf6-98b3-fc639d9f6ec5/4e1b7e7e-6f23-4da7-a75d-a8b4dffe23b5"
-					(reference "#PWR033")
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -8151,7 +8218,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "bfa6c7c5-56e1-4556-8b25-8e8396670306")
-		(property "Reference" "R20"
+		(property "Reference" "R10"
 			(at 80.518 113.284 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8235,7 +8302,7 @@
 		(instances
 			(project "stm32f103_t"
 				(path "/85c6611a-7c24-4cf6-98b3-fc639d9f6ec5/4e1b7e7e-6f23-4da7-a75d-a8b4dffe23b5"
-					(reference "R20")
+					(reference "R10")
 					(unit 1)
 				)
 			)
@@ -8254,7 +8321,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c1c610fd-2446-412a-9161-f4b8a6abee41")
-		(property "Reference" "C3"
+		(property "Reference" "C9"
 			(at 342.9 118.1099 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8340,7 +8407,7 @@
 		(instances
 			(project "stm32f103_t"
 				(path "/85c6611a-7c24-4cf6-98b3-fc639d9f6ec5/4e1b7e7e-6f23-4da7-a75d-a8b4dffe23b5"
-					(reference "C3")
+					(reference "C9")
 					(unit 1)
 				)
 			)
@@ -8462,7 +8529,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ddccee7e-c86c-4f75-9761-9e898e60b59d")
-		(property "Reference" "#PWR09"
+		(property "Reference" "#PWR013"
 			(at 162.56 125.73 0)
 			(hide yes)
 			(show_name no)
@@ -8522,7 +8589,7 @@
 		(instances
 			(project "stm32f103_t"
 				(path "/85c6611a-7c24-4cf6-98b3-fc639d9f6ec5/4e1b7e7e-6f23-4da7-a75d-a8b4dffe23b5"
-					(reference "#PWR09")
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -8539,7 +8606,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ded34b1b-87b1-4dc7-9a03-b0fabadf9572")
-		(property "Reference" "#PWR04"
+		(property "Reference" "#PWR020"
 			(at 320.04 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -8599,7 +8666,7 @@
 		(instances
 			(project "stm32f103_t"
 				(path "/85c6611a-7c24-4cf6-98b3-fc639d9f6ec5/4e1b7e7e-6f23-4da7-a75d-a8b4dffe23b5"
-					(reference "#PWR04")
+					(reference "#PWR020")
 					(unit 1)
 				)
 			)
@@ -8824,7 +8891,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f49a8959-f32f-485b-ac99-dcbb90d9783a")
-		(property "Reference" "#PWR02"
+		(property "Reference" "#PWR022"
 			(at 322.58 184.15 0)
 			(hide yes)
 			(show_name no)
@@ -8884,7 +8951,7 @@
 		(instances
 			(project "stm32f103_t"
 				(path "/85c6611a-7c24-4cf6-98b3-fc639d9f6ec5/4e1b7e7e-6f23-4da7-a75d-a8b4dffe23b5"
-					(reference "#PWR02")
+					(reference "#PWR022")
 					(unit 1)
 				)
 			)

@@ -882,7 +882,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5a59e67c-9e1d-4558-9aa6-681eec660649")
-		(property "Reference" "#PWR012"
+		(property "Reference" "#PWR027"
 			(at 104.14 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -942,7 +942,7 @@
 		(instances
 			(project "stm32f103_t"
 				(path "/85c6611a-7c24-4cf6-98b3-fc639d9f6ec5/e25b0e53-e182-4ca1-9f24-21e783ae33ef"
-					(reference "#PWR012")
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)
@@ -959,7 +959,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "60228f6c-396b-493f-a943-23c6d7f267d4")
-		(property "Reference" "C10"
+		(property "Reference" "C11"
 			(at 58.166 56.896 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1045,7 +1045,7 @@
 		(instances
 			(project "stm32f103_t"
 				(path "/85c6611a-7c24-4cf6-98b3-fc639d9f6ec5/e25b0e53-e182-4ca1-9f24-21e783ae33ef"
-					(reference "C10")
+					(reference "C11")
 					(unit 1)
 				)
 			)
@@ -1062,7 +1062,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "74a19d15-2a02-40ab-b7b9-6be879642f8e")
-		(property "Reference" "#PWR013"
+		(property "Reference" "#PWR026"
 			(at 96.52 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -1122,7 +1122,7 @@
 		(instances
 			(project "stm32f103_t"
 				(path "/85c6611a-7c24-4cf6-98b3-fc639d9f6ec5/e25b0e53-e182-4ca1-9f24-21e783ae33ef"
-					(reference "#PWR013")
+					(reference "#PWR026")
 					(unit 1)
 				)
 			)
@@ -1140,7 +1140,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7e1803f8-2fa4-4e2d-8f6f-0f50260a13b1")
-		(property "Reference" "C11"
+		(property "Reference" "C12"
 			(at 99.06 56.934 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1226,7 +1226,7 @@
 		(instances
 			(project "stm32f103_t"
 				(path "/85c6611a-7c24-4cf6-98b3-fc639d9f6ec5/e25b0e53-e182-4ca1-9f24-21e783ae33ef"
-					(reference "C11")
+					(reference "C12")
 					(unit 1)
 				)
 			)
@@ -1243,7 +1243,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b580d2c6-d7e2-4f89-ba0e-51a289840384")
-		(property "Reference" "#PWR015"
+		(property "Reference" "#PWR024"
 			(at 50.8 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -1303,7 +1303,7 @@
 		(instances
 			(project "stm32f103_t"
 				(path "/85c6611a-7c24-4cf6-98b3-fc639d9f6ec5/e25b0e53-e182-4ca1-9f24-21e783ae33ef"
-					(reference "#PWR015")
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)
@@ -1321,7 +1321,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ba1d5cd3-a519-49f5-8ff1-0ba3feedf995")
-		(property "Reference" "U2"
+		(property "Reference" "U3"
 			(at 76.2 45.72 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1411,7 +1411,7 @@
 		(instances
 			(project "stm32f103_t"
 				(path "/85c6611a-7c24-4cf6-98b3-fc639d9f6ec5/e25b0e53-e182-4ca1-9f24-21e783ae33ef"
-					(reference "U2")
+					(reference "U3")
 					(unit 1)
 				)
 			)
@@ -1428,7 +1428,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ecfdbe7e-f776-42d4-94ff-bd19fa0c27c0")
-		(property "Reference" "#PWR014"
+		(property "Reference" "#PWR025"
 			(at 60.96 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -1488,7 +1488,7 @@
 		(instances
 			(project "stm32f103_t"
 				(path "/85c6611a-7c24-4cf6-98b3-fc639d9f6ec5/e25b0e53-e182-4ca1-9f24-21e783ae33ef"
-					(reference "#PWR014")
+					(reference "#PWR025")
 					(unit 1)
 				)
 			)

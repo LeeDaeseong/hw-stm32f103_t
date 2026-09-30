@@ -707,46 +707,6 @@
 		)
 		(uuid "eeec546b-473b-42ff-b377-dd8c3e951260")
 	)
-	(label "OUT_LED3"
-		(at 88.9 71.12 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "5c278a9f-8f66-4803-9718-77aa06b01ae5")
-	)
-	(label "OUT_LED1"
-		(at 88.9 55.88 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "6db32bb8-e7d7-4bf7-bbb4-f37174bd3678")
-	)
-	(label "OUT_LED2"
-		(at 88.9 63.5 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "98c4e9c2-25a9-458f-8a6b-997c5776466b")
-	)
-	(label "OUT_LED4"
-		(at 88.9 78.74 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "f925205d-b703-4f82-8361-f66bc070b180")
-	)
 	(hierarchical_label "LED_IN3"
 		(shape input)
 		(at 88.9 71.12 0)
@@ -802,7 +762,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "28050865-9c13-4318-97b1-9aff65970297")
-		(property "Reference" "#PWR016"
+		(property "Reference" "#PWR028"
 			(at 50.8 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -862,7 +822,7 @@
 		(instances
 			(project "stm32f103_t"
 				(path "/85c6611a-7c24-4cf6-98b3-fc639d9f6ec5/8f949a12-8888-46cd-a43c-652036d3b159"
-					(reference "#PWR016")
+					(reference "#PWR028")
 					(unit 1)
 				)
 			)
@@ -1283,7 +1243,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ddee2eb6-c0f7-44db-a9e5-3e2a2b0c58bc")
-		(property "Reference" "R3"
+		(property "Reference" "R13"
 			(at 58.42 54.356 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1367,7 +1327,7 @@
 		(instances
 			(project "stm32f103_t"
 				(path "/85c6611a-7c24-4cf6-98b3-fc639d9f6ec5/8f949a12-8888-46cd-a43c-652036d3b159"
-					(reference "R3")
+					(reference "R13")
 					(unit 1)
 				)
 			)
@@ -1384,7 +1344,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e2a39b84-db7d-4dfa-93f6-0777aba86527")
-		(property "Reference" "R5"
+		(property "Reference" "R15"
 			(at 58.42 69.596 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1468,7 +1428,7 @@
 		(instances
 			(project "stm32f103_t"
 				(path "/85c6611a-7c24-4cf6-98b3-fc639d9f6ec5/8f949a12-8888-46cd-a43c-652036d3b159"
-					(reference "R5")
+					(reference "R15")
 					(unit 1)
 				)
 			)
@@ -1485,7 +1445,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ef89c64e-556d-4d12-a9ae-a340f916225e")
-		(property "Reference" "R6"
+		(property "Reference" "R16"
 			(at 58.42 77.216 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1569,7 +1529,7 @@
 		(instances
 			(project "stm32f103_t"
 				(path "/85c6611a-7c24-4cf6-98b3-fc639d9f6ec5/8f949a12-8888-46cd-a43c-652036d3b159"
-					(reference "R6")
+					(reference "R16")
 					(unit 1)
 				)
 			)
@@ -1586,7 +1546,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "fdba0449-c14f-46c2-b892-b58c56532e69")
-		(property "Reference" "R4"
+		(property "Reference" "R14"
 			(at 58.42 61.976 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1670,7 +1630,7 @@
 		(instances
 			(project "stm32f103_t"
 				(path "/85c6611a-7c24-4cf6-98b3-fc639d9f6ec5/8f949a12-8888-46cd-a43c-652036d3b159"
-					(reference "R4")
+					(reference "R14")
 					(unit 1)
 				)
 			)
